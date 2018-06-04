@@ -1,7 +1,7 @@
 {
-  "name": "react-base-ie8",
+  "name": "webpack-demo",
   "version": "1.0.0",
-  "description": "this is react project.",
+  "description": "this is webpack-demo",
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development node server"
