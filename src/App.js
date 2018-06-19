@@ -1,12 +1,10 @@
-import React, { Component } from "react";
-
-import {
-  Router,
-  Route
-} from "react-router";
+import React from 'react';
+import { Router, Route, useRouterHistory, hashHistory } from 'react-router';
+import { createHashHistory } from 'history'
+import 'fetch-ie8'
 
 let msg = `搭建成功`;
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div>

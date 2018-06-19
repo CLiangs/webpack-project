@@ -1,5 +1,7 @@
 {
-    "presets": ["react"],
+    "presets": [
+      "react"
+    ],
     "env": {
       "development": {
         "presets": [
@@ -12,19 +14,19 @@
           "stage-0"
         ]
       },
-      "test": {
-        "presets": ["env", "stage-0"]
-      },
       "production": {
         "presets": [
           [
             "env",
             {
               "targets": {
-                "browsers": ["last 2 versions", "ie >= 8"]
+                "browsers": [
+                  "last 2 versions",
+                  "ie >= 8"
+                ]
               },
               "useBuiltIns": true,
-              "debug": true
+              "debug": false
             }
           ]
         ],
